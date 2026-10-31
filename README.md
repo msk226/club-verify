@@ -12,7 +12,7 @@
 ## 어떻게 동작하나요
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[신청 접수<br/>POST /verify] -->|202 Accepted| B[비동기 검증 시작]
     B --> C[검색 쿼리 생성<br/>학교·SNS·커뮤니티]
     C --> D[Google 검색]
